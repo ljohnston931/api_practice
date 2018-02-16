@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Montserrat;
     font-size: 16px;
     padding: 0px 50px 0px 50px;
     color:#333;
@@ -24,7 +24,7 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #BDD4DE;
+    background-color: #e2e2e2;
     padding: 20px;
 }
 
@@ -37,58 +37,34 @@ body {
     grid-area: footer;
     display: table;
     text-align: center;
-    background-color: #EFEFEF;
+    background-color: #fff;
     padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer p {
     display: table-cell;
     vertical-align: middle;
     padding: 10px 0px;
+
 }
 
-.bg-light {
-    background-color: #fff !important;
+.navbar {
+    background-image: none;
+    background-color: rgb(196, 233, 171);
 }
 
-.header nav {
-    margin-top: 20px;
-    padding: 0px;
+h1 {
+    font-size: 4em;
+    color: #387C2C;
+    font-weight: 800;
 }
 
-.nav-item {
-    padding: 5px 10px;
+.navbar-header {
+    font-size: 20px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #333;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #333;
-}
-
-nav li:hover {
-    background-color: #efefef;
-}
-
-nav li.active {
-    background-color: #ff5035;
-}
-
-nav li.active nav-link {
-    color: #fff;
-}
-
-nav .dropdown-menu {
-    background-color: #efefef;
-}
-
-nav .dropdown-item:focus, .dropdown-item:hover {
-    color: #333;
-    text-decoration: none;
-    background-color: #fff;
-}
 
 /*Responsive Design*/
 @media screen and (max-width : 760px) {

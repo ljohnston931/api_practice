@@ -4,73 +4,61 @@
 
 
     <script  src = "https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script text="type/javascript" src="./script.js"></script>
+   
 
-   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800,900" rel="stylesheet">
     
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                aria-expanded="false" aria-label="Toggle Navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            About</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Who We Are</a>
-                                <a class="dropdown-item" href="#">What We Do</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <div class="header">   
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../index.html"><strong>RecipeSearch</strong></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">All Recipes</a></li>
+                        <li><a href="./pages/veget.html">Vegetarian</a></li>
+                        <li><a href="./pages/vegan.html">Vegan</a></li>
                     </ul>
                 </div>
             </nav>
         </div>  <!-- header -->
         <div class="sidebar">
-            <h1>About the Programmer</h1>
-            <p>Hi it's me, Lucy. I am the oldest sibling
-                of four. I have three younger brothers. And 
-                I love music!
+            <h2>About the Programmer</h2>
+            <p>I'm a computer science student at BYU. This site is a way for me to practice using APIs and JQuery. Enjoy the recipes!
             </p>
-        </div>
+            </div>
         <div class="main">
-            <h1>Main</h1>
+            <h1>RecipeSearch</h1>
             <form>
                 <br>
                 <label>Search for a recipe:</label>
                 <br>
                 <input class="box" id="recipeInput" type="text"></input>
                 <br>
+                <br>
                 <input class="button" id="recipeSubmit" type="submit" value="Search"></input> 
             </form>
             <div id="recipeResult"></div>
-            <p>Here's where I am going to
-                put my jqueries and stuff and format
-                the output
-            </p>
-            <p>Ooo more results!</p>
+            <script text="type/javascript" src="./script.js"></script>
         </div>
+
         <div class="footer">
-            <p>here's the footer</p>
+            <p>Created by: Lucy Johnston 
+                    <br> GitHub URL: <a href="https://github.com/ljohnston931/api_practice">https://github.com/ljohnston931/api_practice</a></p>        
+            
         </div>
     </div>     <!--container-->
     
